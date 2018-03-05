@@ -1,0 +1,54 @@
+<div class="pd_detail_box" data-id="{{id}}">
+    <div class="pd_img_area">
+        <div class="pd_mainImg_box">
+            <img class="pd_main_img" src="/src/imgs/details/details-img-big.png" alt="Product image">
+        </div>
+        <div class="pd_small_imgs">
+            <div class="pd_small_thumb"><img class="pd_small_img" src="/src/imgs/products/img1.png" alt="Product small image"></div>
+            <div class="pd_small_thumb"><img class="pd_small_img" src="/src/imgs/products/img2.png" alt="Product small image"></div>
+            <div class="pd_small_thumb"><img class="pd_small_img" src="/src/imgs/details/details-img-big.png" alt="Product small image"></div>
+        </div>
+    </div>
+    <div class="d_info_area">
+        <h1 class="pd_full_name">{{name}}</h1>
+        <p class="pd_kit">{{kit}}</p>
+        <p class="pd_description">{{description}} </p>
+        <div class="pd_sizes_and_quant">
+            <div class="pd_sizes">
+                <span class="pd_choosS">Choos Size</span>
+                <div class="pd_sizes_list" data-toggle="tooltip" data-placement="top" title="Please select size">
+                    <input id="pd_choosen_size" type="hidden">
+                    <a class="pd_sizes_no" href="#!">S</a>
+                    <span>-</span>
+                    <a class="pd_sizes_no" href="#!">M</a>
+                    <span>-</span>
+                    <a class="pd_sizes_no" href="#!">L</a>
+                    <span>-</span>
+                    <a class="pd_sizes_no" href="#!">XL</a>
+                </div>
+            </div>
+            <div class="pd_quantity">
+                <span class="pd_choos">Choos Quantity</span>
+                <div class="pd_quantity_list">
+                    <a class="pd_quantity_btn" href="#!">+</a>
+                    <input id="pd_quantity_amount" class="pd_quantity_amount" type="text" value="{{quantity}}" data-toggle="tooltip" data-placement="top" title="Please select quantity">
+                    <a class="pd_quantity_btn" href="#!">-</a>
+                </div>
+            </div>
+        </div>
+        <div class="pd_order_area">
+            <div class="pd_price">
+                <span>Price :</span>
+                <span class="pd_total_price">{{price}}</span>$
+            </div>
+            <div class="pd_links_orderBtn">
+                <ul class="pd_order_links">
+                    <li><a class="pq_share" href="#!" title="Share"></a></li>
+                    <li><a class="pq_addTo" href="#!" title="Add To Cart"></a></li>
+                    <li><a class="pq_like" href="#!" title="Like"></a></li>
+                </ul>
+                <a id="pd_order_btn" class="pd_order_button" href="#!">Order Now</a>
+            </div>
+        </div>
+    </div>
+</div>

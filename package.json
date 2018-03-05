@@ -1,0 +1,39 @@
+{
+  "name": "shopy_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack":"webpack",
+    "webpackW": "webpack --watch",
+    "gulp": "gulp",
+    "gulpW": "gulp watch"
+  },
+  "keywords": [
+    "shopy",
+    "price",
+    "quality"
+  ],
+  "author": "milang",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "clean-webpack-plugin": "^0.1.18",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.0",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "jquery": "^3.3.1",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^3.11.0"
+  }
+}

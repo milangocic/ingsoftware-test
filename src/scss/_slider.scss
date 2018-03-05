@@ -1,0 +1,32 @@
+#slider-container{
+  max-width: 100%;
+  width: 186px;
+  margin-left: 0px;
+  margin-top:68px;
+  margin-bottom: 40px;
+}
+.slider_from{
+  float: left;
+}
+.slider_to{
+  float: right;
+}
+.amount-box{
+  width: 100%;
+  max-width: 270px;
+  overflow: hidden;
+}
+.amount-box input[type=text] {
+    display: inline-block;
+    border:none;
+    width:45px;
+    height: 25px;
+    padding: 2px 5px;
+    margin-left:10px;
+    font-family: 'HarmoniaSansProCyr-SemiBd';
+    font-size: 14px;
+    color:#34404b;
+    background: #edf0f2;
+    
+
+}

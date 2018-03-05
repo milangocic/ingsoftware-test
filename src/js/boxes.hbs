@@ -1,0 +1,24 @@
+
+ {{#each this}}
+    <div class="box_wrapper rp_box_clear" data-id="{{id}}">
+        <div class="box_area">
+            <div class="product_box">
+                <a class="pbox_link" href="{{details}}">
+                    <img class="box_img" src="{{image}}" alt="{{name}}" title="{{name}}">
+                    <h2 class="box_name">{{brand}} {{name}}</h2>
+                </a>
+                <div class="product_sizes" title="Sizes">sizes&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;s - m - l - xl</div>
+                <div class="product_colors" title="Colors"></div>
+                <span class="product_line"></span>
+                <div class="onHover_icons">
+                    <ul>
+                        <li class="product_share_icon" title="Share"></li>
+                        <li class="product_addTo_icon" title="Add To Cart"></li>
+                        <li class="product_like_icon" title="Like"></li>
+                    </ul>
+                </div>
+                <p class="product_price">{{price}}$</p>
+            </div>
+        </div>
+    </div>
+{{/each}}
